@@ -1,0 +1,1 @@
+import{ah as s}from"./index-BMB00a8I.js";const r=s.create({baseURL:"http://190.201.251.10",timeout:18e4});r.interceptors.request.use(e=>e,e=>(console.error("Error en la petición:",e),Promise.reject(e)));r.interceptors.response.use(e=>e.data,e=>(console.error("Error en la respuesta:",e),e.response?.data?.message,Promise.reject(e)));export{r as s};
